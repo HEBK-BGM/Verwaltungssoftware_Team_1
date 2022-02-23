@@ -1,13 +1,50 @@
-![your-UML-diagram](//www.plantuml.com/plantuml/png/ZOzDYW8n48NtESLRpZ3J5yYgBp238BYFfaW7aWhaHq7nPkwyc4dRtTWBmLtn5U_dzIchc8jtuk1KIlWZBdGHwBZaCqL8_8z79P4CfMmf4aFkGt2ak6B5XZmvJHaI2_vfJlVRrpVgNPNHJj9A98x1wYfTyK6bOLChd4BKaDiSBHlyujc3bQTPYBUMxQ6ubLd3ReRuFEN52gFNRWembCV9RN5xB9l5LVJ4kdZt0000)
-class Menue{
- -nutzer : Nutzer
- -regestieren :boolean
- -angemeldet : boolean
- + Menü() 
- +regristieren() : void
- -regristieren(hashPassword :String , nutzername) : void  
- +regristieren() : void 
- +anmelden() : void 
- -anmelden (hashPassword :String , nutzername) : void
- +anmelden () : Void 
- +getangemldet() : boolean
+@startuml
+classApp{
++Stringdir:Aktienverwaltung/data/
++Fileaccounts:newfile
++Filestocks:newfile
+}
+
+classServer{
+
+importjava.io.BufferedReader
+importjava.io.BufferedWriter
+importjava.io.File
+importjava.io.FileNotFoundException
+importjava.io.FileReader
+importjava.io.FileWriter
+importjava.io.IOException
+importjava.net.ServerSocket
+importjava.net.Socket
+importjava.util.Random
+importjava.util.Scanner
+importcom.google.gson.Gson
+importcom.google.gson.JsonSyntaxException
+_______________________________________________________________________________
+
+ServerSocket serverSockert = null
+Socket socket = null
+this.dir = dir 
+gson = new Gson 
+cmdInmput.start()
+generateStockValues.start ()
+
+____________________________________
+public void run() 
+
+Random rand = new Random()
+BufferedReader reader
+BufferWriter writer
+Stock.addValue(stock.getValues().length, stock.getValues(), newValue)
+writer = new BufferWriter(new FileWriter(file))
+writer.write (gson.toJson(stock))
+reader.close()
+writer.close ()
+Thread cmdInput = new Thread(new Runnable(),String stockName = input[2];Integer[] stockValue = {null},
+Zeille 110
+______________________________________
+
+
+
+}
+@enduml
