@@ -1,11 +1,11 @@
 @startuml
-classApp{
+class App {
 +Stringdir:Aktienverwaltung/data/
 +Fileaccounts:newfile
 +Filestocks:newfile
 }
 
-classServer{
+class Server{
 
 importjava.io.BufferedReader
 importjava.io.BufferedWriter
@@ -41,9 +41,11 @@ writer.write (gson.toJson(stock))
 reader.close()
 writer.close ()
 Thread cmdInput = new Thread(new Runnable(),String stockName = input[2];Integer[] stockValue = {null},
-Zeille 110
+Integer stockValue = null
+Stock stock = new Stock (stockName, stockValue
+writer = new BufferedWriter
+writer.write
 ______________________________________
-
 
 
 }
