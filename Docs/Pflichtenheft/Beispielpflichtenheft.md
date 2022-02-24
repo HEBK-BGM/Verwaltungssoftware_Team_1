@@ -13,7 +13,7 @@
 ## 1. Beschreibung der Anwendung
 
 ### **Grobbeschreibung** 
-Wir wollen ein Aktien Portfolio erstellen mit einer einfachen Menüführung vorhanden ist. Somit sollen Auch einfachere Nutzerdaten erstellt werden beim erstmaligen einloggen ins Portfolio automatische gespeichert werden. Diese sollen auch beim neuen einloggen in das Portfolio abgefragt werden. Wenn diese Nutzerdaten nicht mit dem eigentlichen übereinstimmen, soll die Person ins Menü zurück geführt werden. Indem Portfolio sollen die  allgemeinen Funktionen eines Aktien Portfolios vorhanden sind. Dieses soll somit den Wert des Porfolio wiedergeben, den einzelnen Wert der Aktie und den Anteil. Auch Funktionen wie das Kaufen und Verkauf von Aktien sollen hier möglich sein. Somit muss auch ein Aktien Kurs erstellt werden der wie im Echtenleben steigen und fallen kann. Auch das eigenständig ein und aus Zalen des Gewinnes soll auf ein virtuelles Konto geschehen können. Ebendso wie eine breite Varianz an Aktien die vom Nutzer gekauft werden können. Wenn der Nutzer fertig ist mit seiner vorhaben, dann soll dieser sich abmelden können. Nach dem Abmelden soll der Nutzer zurück ins Menü geschickt werden. 
+Wir wollen ein Aktien Portfolio erstellen mit einer einfachen Menüführung vorhanden ist. Somit sollen auch einfachere Nutzerdaten erstellt werden beim erstmaligen Einloggen ins Portfolio automatische gespeichert werden. Diese sollen auch beim neuen Einloggen in das Portfolio abgefragt werden. Wenn diese Nutzerdaten nicht mit dem eigentlichen Übereinstimmen, soll die Person ins Menü zurückgeführt werden. Indem Portfolio sollen die allgemeinen Funktionen eines Aktien Portfolios vorhanden sind. Dieses soll somit den Wert des Portfolios wiedergeben, den einzelnen Wert der Aktie und den Anteil. Auch Funktionen wie das Kaufen und Verkauf von Aktien sollen hier möglich sein. Somit muss auch ein Aktien Kurs erstellt werden der wie im Echtenleben steigen und fallen kann. Auch das eigenständig ein und aus Zalen des Gewinnes soll auf ein virtuelles Konto geschehen können. Ebenso wie eine breite Varianz an Aktien die vom Nutzer gekauft werden können. Wenn der Nutzer fertig ist mit seinem Vorhaben, dann soll dieser sich abmelden können. Nach dem Abmelden soll der Nutzer zurück ins Menü geschickt werden. 
 
 
 ### **Menüführung**
@@ -25,31 +25,34 @@ Wir wollen ein Aktien Portfolio erstellen mit einer einfachen Menüführung vorh
 
 ### **Menü anzeigen**
 #### **Beschreibung Funktion Menü anzeigen**
-Bei der Menüführung wird zuerst die Anmeldung bzw. die Regestierung durchgeführt. Hierzu wird ein Nutzername und das Passwort abgefragt, welches bei erstmaligen Regestieren gespeichert wird. Wenn diese Passwort nicht mit dem Nutzernamen Übereinstimmt wird der Nutzer zurück in den Amelde bereich gebracht. Wenn dieses Übereinstimmt kann der Nutzer auf sein Porfolio zugreifen. Dort kann er folgende Menü-Punkte nutzen.
+Bei der Menüführung wird zuerst die Anmeldung bzw. die Registrierung durchgeführt. Hierzu wird ein Nutzername und das Passwort abgefragt, welches bei erstmaligen Regestieren gespeichert wird. Wenn dieses Passwort nicht mit dem Nutzernamen übereinstimmt, wird der Nutzer zurück in den Anmeldebereich gebracht. Wenn dieses Übereinstimmt kann der Nutzer auf sein Portfolio zugreifen. Dort kann er folgende Menü-Punkte nutzen.
 
 - Finazen 
--  Aktien 
+- Aktien 
 - Bilanz (vielleicht)
 - Abmelden  
 
 ### **Finaz**
 
 #### **Beschreibung Funktion Finanzen**
-Nach der Anmeldung kann der Benutzer den Menüpunkt Finazen Ausführen. Dort wird er in ein weiteres Menü geführt. In diesem kann der Nutzer des Portfolios auf sein kompletten Finaz zweig zugreifen. Hierzu gehört das Einzahlen eigendes Geldes von ein Konto, das Kaufen und verkaufen von Aktien und das einsehen des Portfolio Wertes. Auch das aufgelandene Geld mit welchen du traden kannst wir dir im Porfolio unter dem Menüpunkt Lequide-Mittel nachgucken.Wenn man doch diesen Menüzweig wählen will kann man wieder ins "Main-Menü" zurück kehren. 
+Nach der Anmeldung kann der Nutzer den Menüpunkt Finanzen ausführen. Dort wird er in ein weiteres Menü geführt. In diesem kann der Nutzer des Portfolios auf sein kompletten Finanz zweig zugreifen. Hierzu gehört das Einzahlen eigenen Geldes von einem Konto, das Kaufen und Verkaufen von Aktien und das Einsehen des Portfolio Wertes. Auch das aufgeladene Geld mit welchen du traden kannst kann der Nutzer im Portfolio unter dem Menüpunkt Liquide-Mittel nachgucken. Wenn man doch diesen Menüzweig wählen will, kann man wieder ins "Main-Menü" zurückkehren. 
 
 ##### **Einazhalen und Auszahlen**
-Wenn man diesen Menüpunkt nutzt kann mann auf ein Virtuelles Konto zugreifen, welches jeder Nutzer beim einloggen erstellt bekommt. 1.000.000 ist das Kapital welches auf diesen Konto vorhanden sind. Wenn du nun den Konto ein bestimmten betrag entzieht wird dieses unter dem Menüpunkt "Lequide-Mittel" aufgeladen. Anders herum natürlich auch. 
-Dies kann man mit dem comment machen : _____________________ und anderherum mit _____________ machen. 
+Wenn man diesen Menüpunkt nutzt, kann man auf ein Virtuelles Konto zugreifen, welches jeder Nutzer beim Einloggen erstellt bekommt. 1.000.000 ist das Kapital, welches auf diesem Konto vorhanden ist. Wenn du nun das Konto ein bestimmter Betrag entzieht wird dieses unter dem Menüpunkt "Liquide-Mittel" aufgeladen. Andersherum natürlich auch. 
+Dies kann man mit dem comment machen: _____________________ und andersherum mit _____________ machen. 
+
 ##### **Kaufen und Verkaufen** 
-Wenn dieser Menüpunkt wählt kommt man in die Ansicht verschiedner Aktien und deren Werte. 
-Dieser Beinhaltet genau so wie bei den Aktien Menüpunkt eine mit GUI erstellten Kurs der Aktie. So kann man nachvollziehen ob diese Aktie Stabil ist usw. Je mach dem hat die Aktie auch ihren Wert, welcher Steigen oder auch Fallen kann. Wenn man nun eine Aktie Kaufen will kann man mit dem Kapital des Menüpunkt "Lequide-Mittel" eine Aktien kaufen. Diesen kauf kann man aber in dem Kaufen und Verkaufen Menüpunkt tätigen.
+Wenn man dieser Menüpunkt wählt, kommt man in die Ansicht verschiedener Aktien und deren Werte. 
+Dieser Beinhaltet genauso wie bei den Aktien Menüpunkt eine mit GUI erstellten Kurs der Aktie. So kann man nachvollziehen, ob diese Aktie Stabil ist usw. Je nach dem hat die Aktie auch ihren Wert, welcher steigen oder auch fallen kann. Wenn man nun eine Aktie kaufen will, kann man mit dem Kapital des Menüpunkt "Liquide-Mittel" eine Aktie kaufen. Diesen Kauf kann man aber in dem Kaufen und Verkaufen Menüpunkt tätigen.
 
 
-##### **Lequide-Mittel** 
-Unter diesem Menüpunkt kann man das Geld welches auf dem Portfolio hat  einsehen. Falls nun eine Aktie gekauft oder verkauft wird, dann vergrößert bzw. verkleinert sich der Geldbetrag im Menüpunkt "Lequide-Mittel".
+
+##### **Liquide-Mittel** 
+Unter diesem Menüpunkt kann man das Geld, welches auf dem Portfolio hat, einsehen. Falls nun eine Aktie gekauft oder verkauft wird, dann vergrößert bzw. verkleinert sich der Geldbetrag im Menüpunkt "Liquide-Mittel".
+
 
 ##### **Wert des Portfolios**
-In deisem Menüpunkt wird der ganz wert deines Portflios einsehen. Hierzu gehört der Anzahl an den einzelnen Aktien und den Gesamt-Wert des Aktien Portfolios ansehen. 
+In diesem Menüpunkt wird der Wert deines Portfolios einsehen. Hierzu gehört der Anzahl an den einzelnen Aktien und den Gesamt-Wert des Aktien Portfolios ansehen. 
 
 ##### **Zurück**
 Ein einfacher Menüpunkt, welcher dich zurück in das "Main-Menü" führt. 
@@ -58,28 +61,27 @@ Ein einfacher Menüpunkt, welcher dich zurück in das "Main-Menü" führt.
 ### **Aktien**
 
 #### **Beschreibung Funktion Aktien** 
-Auch hier kann der Nutzer nach dem Anmelden auf ein Menüpunkt zugreifen, mit dem Namen Aktien.Somit ist dies auch ein weiters Untermenü. Heir kann der Nutzer die Kurse der Aktien nachgucken, die Anteile und Anzahlen der Aktien nachvollziehen. Auch das ansehen aderen Aktien kannst der Nutzer in diesen zeig machen. Somit sind auch 3 Menüpunkte in diesem Untermenü Vorhanden. Sobald man doch diesen Zweig nicht wählen will kann man per Knopfdruck zurück ins "Main-Menü".
+Auch hier kann der Nutzer nach dem Anmelden auf ein Menüpunkt zugreifen, mit dem Namen Aktien. Somit ist dies auch ein weiters Untermenü. Hier kann der Nutzer die Kurse der Aktien nachgucken, die Anteile und Anzahlen der Aktien nachvollziehen. Auch das Ansehen anderen Aktien kann der Nutzer in diesen zeig machen. Somit sind auch 3 Menüpunkte in diesem Untermenü Vorhanden. Sobald man doch diesen Zweig nicht wählen will, kann man per Knopfdruck zurück ins "Main-Menü".
 ##### **Kurse** 
-In diesem Menüpunkt kann man einzelne Aktien ansehen und deren Kurse mit einem Linien Diagramm angezeigt. Hier kann man mithilfe der GUI ein Funktion fähige Kurs erstellen, der fallen und steigen kann. 
+In diesem Menüpunkt kann man einzelne Aktien ansehen und deren Kurse mit einem Liniendiagramm angezeigt. Hier kann man mithilfe der GUI eine Funktion fähige Kurs erstellen, der fallen und steigen kann. 
 
 ##### **Aktien Antiele**
-Bei diesen Menüpunkt hast der Nutzer die Möglichkeit alle innhabende Aktien nach zu gucken und deren Anzahl. 
+Bei diesen Menüpunkt hat der Nutzer die Möglichkeit alle innhabende Aktien nachzugucken und deren Anzahl. 
 
 ##### **andere Aktien** 
-Bei dem Nutzen dieses Menüpunktes kann man alle an der "Börse" ansäsigen Aktien einsehen. Somit hat man die ganze übersich über alle Aktien die man erwerben kann.
+Bei dem Nutzen dieses Menüpunktes kann man alle an der "Börse" ansässigen Aktien einsehen. Somit hat man die ganze Übersicht über alle Aktien, die man erwerben kann.
 ##### **Zurück**
-Ein einfacher Menüpunkt, welcher dich zurück in das "Main-Menü" führt.
+Ein einfacher Menüpunkt, welcher dem Nutzer zurück in das "Main-Menü" führt.
 
 ### **Bilaz** (Vielleicht)
 #### **Beschreibung Funktion Bilanz (Vielleicht)** 
-Nach der Ameldung kann der Benutzer auch auf dem Menüpunkt Bilanz zugreifen. In diesem Menüpunkt kann der Nutzer einsehen wie er in der letzten Zeit gewirtschaftet hat. Wenn man diese Funktion nicht mehr nutzten will kann man ins "Main-Menü" zurück kehren. 
+Nach der Anmeldung kann der Nutzer auch auf dem Menüpunkt Bilanz zugreifen. In diesem Menüpunkt kann der einsehen, wie er in der letzten Zeit gewirtschaftet hat. Wenn man diese Funktion nicht mehr nutzten will kann man ins "Main-Menü" zurückkehren. 
 
 ### **Abmelden**
-
-Bei deisem Menüpunkt kannst der Nutzer aus dem Portfolio auloggen, falls er mit allen seinen Vorhaben fertig ist. 
+Bei diesem Menüpunkt kann der Nutzer aus dem Portfolio ausloggen, falls der mit allen seinen Vorhaben fertig ist. 
 
 **Besonderheiten**
-Das eigentliche Programm läuft auf einen Server, die clients holen sich die daten von server. Die Aktien können nach bielieben hinzugefügt werden und haben kein maximum. Die Ersten beide Menüpunkte verfügen über ein Untern Menüpunkt. Ebendfalls besonders ist, dass man wieder in Main-Menü zurück kehren kann. Außerdem kann man nicht mehr Geld in die Aktien investieren, wenn das "Guthaben" bzw auch das Konto komplett leer sind. 
+Das eigentliche Programm läuft auf einen Server, die Clients holen sich die daten von Server. Die Aktien können nach Belieben hinzugefügt werden und haben kein maximum. Die Ersten beide Menüpunkte verfügen über ein Untern Menüpunkt. Ebenfalls besonders ist, dass man wieder in Main-Menü zurückkehren kann. Außerdem kann man nicht mehr Geld in die Aktien investieren, wenn das "Guthaben" bzw. auch das Konto komplett leer sind. 
 
 
 #### **Diagramm (Aktivitätsdiagramm) Funktion Fach anlegen**
