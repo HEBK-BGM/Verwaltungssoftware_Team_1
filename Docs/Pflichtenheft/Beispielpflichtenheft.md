@@ -66,7 +66,12 @@ Auch hier kann der Nutzer nach dem Anmelden auf ein Menüpunkt zugreifen, mit de
 In diesem Menüpunkt kann man einzelne Aktien ansehen und deren Kurse mit einem Liniendiagramm angezeigt. Hier kann man mithilfe der GUI eine Funktion fähige Kurs erstellen, der fallen und steigen kann. 
 
 ##### **Aktien Antiele**
+<<<<<<< HEAD
 Bei diesen Menüpunkt hat der Nutzer die Möglichkeit alle innhabende Aktien nachzugucken und deren Anzahl. 
+=======
+Bei diesen Menüpunkt h
+t der Nutzer die Möglichkeit alle innhabende Aktien nach zu gucken und deren Anzahl. 
+>>>>>>> origin/main
 
 ##### **andere Aktien** 
 Bei dem Nutzen dieses Menüpunktes kann man alle an der "Börse" ansässigen Aktien einsehen. Somit hat man die ganze Übersicht über alle Aktien, die man erwerben kann.
