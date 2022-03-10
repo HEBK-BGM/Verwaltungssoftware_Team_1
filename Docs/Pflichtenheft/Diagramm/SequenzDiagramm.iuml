@@ -1,8 +1,12 @@
 @startuml
 
+Server <--> Person 
 Person -> Anmelden :login()
+Anmelden -> Server : jason  
+Server -> Anmelden : jason
 Anmelden --> Person : boolean true
 Person -> registrieren :registrieren()
+registrieren <-> Server : jason
 registrieren -> Person :string() 
 Person -> Anmelden  :login()
 Anmelden -> Menü 
